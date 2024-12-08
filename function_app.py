@@ -3,9 +3,11 @@ from azure.data.tables import TableClient
 import logging
 import json
 from datetime import datetime
+from dotenv import load_dotenv
 
 import os
 from flask import Flask, Response,  request , jsonify
+load_dotenv()
 
 flask_app = Flask(__name__) 
 
