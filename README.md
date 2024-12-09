@@ -1,4 +1,4 @@
-# Python & Azure
+# Azure Function Todo-API with Flask and Azure-Table-Storage
 
 [
     ![Open in Remote - Containers](
